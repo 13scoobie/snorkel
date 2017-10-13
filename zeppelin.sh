@@ -96,7 +96,7 @@ done
 
 # Parse short options
 OPTIND=1
-while getopts "hrs?" opt; do
+while getopts "hrsf?" opt; do
   case "$opt" in
     "h") help; exit 0 ;;
     "r") start ;;
